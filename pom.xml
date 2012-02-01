@@ -1,5 +1,7 @@
 <?xml version="1.0"?>
-<project>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>fr.xebia.katas</groupId>
 	<artifactId>code-story-step2</artifactId>
@@ -24,6 +26,12 @@
 			<groupId>org.easytesting</groupId>
 			<artifactId>fest-assert</artifactId>
 			<version>1.4</version>
+		</dependency>
+		
+<dependency>
+			<groupId>org.simpleframework</groupId>
+			<artifactId>simple</artifactId>
+			<version>4.1.21</version>
 		</dependency>
 	</dependencies>
 	
